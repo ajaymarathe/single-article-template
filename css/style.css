@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+p {
+  color: #495057;
+}
+
+.first-section {
+  padding-top: 3rem;
+}
+.first-section .user {
+  margin-top: 2rem;
+}
+.first-section .user img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+.first-section .blog-section {
+  margin-top: 2rem;
+}
+.first-section .blog-section img {
+  margin-bottom: 1rem;
+  border-radius: 1rem !important;
+}
+.first-section .blog-section p {
+  margin-bottom: 2rem;
+}
+.first-section .blog-section h1, .first-section .blog-section h2, .first-section .blog-section h3, .first-section .blog-section h4, .first-section .blog-section h5, .first-section .blog-section h6 {
+  margin-bottom: 1.5rem;
+}
+.first-section .blog-section .blockquote-1 {
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+.first-section .blog-section ul {
+  margin-bottom: 3rem;
+}
+.first-section .blog-section ul li {
+  margin-bottom: 1rem;
+}
+.first-section .share {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.first-section .share i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.first-section .comment-section .reply {
+  margin-bottom: 1rem;
+}
+.first-section .comment-section .media {
+  padding: 1.25rem !important;
+}
+.first-section .comment-section .media img {
+  width: 3rem;
+}
+.first-section .comment-section .media .small {
+  font-size: 13px !important;
+}
+.first-section .comment-section .media h6 {
+  font-weight: bold;
+}
+.first-section .comment-section .media:hover {
+  background: #EDF2F9;
+  padding: 1.25rem !important;
+}
+.first-section .comment-section .post-comment h1 {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .first-section {
+    padding-top: 1rem;
+  }
+}
+.text-light-1 {
+  color: #495057 !important;
+}
+
+.text-muted {
+  color: #adb5bd !important;
+}
+
+.bounce-little {
+  webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.bounce-little:hover {
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+/*# sourceMappingURL=style.css.map */

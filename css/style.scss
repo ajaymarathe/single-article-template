@@ -1,0 +1,114 @@
+//font-family
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+p{
+  color: #495057;
+}
+//first section
+.first-section{
+  padding-top: 3rem;
+  //user section
+  .user{
+    margin-top: 2rem;
+    img{
+      width: 4rem;
+      height: 4rem;
+      margin-right: 1rem;
+    }
+  }
+  //blog section
+  .blog-section{
+    margin-top: 2rem;
+    img{
+      margin-bottom: 1rem;
+      border-radius: 1rem !important;
+    }
+    p{
+      margin-bottom: 2rem;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin-bottom: 1.5rem;
+    }
+    .blockquote-1{
+      border-radius: .5rem;
+      margin-bottom: 2rem;
+    }
+    ul{
+      margin-bottom: 3rem;
+      li{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  //share section
+  .share{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    i{
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  .comment-section{
+    .reply{
+      margin-bottom: 1rem;
+    }
+    .media{
+      padding: 1.25rem !important;
+      img{
+        width: 3rem;
+      }
+      .small{
+        font-size: 13px !important;
+      }
+      h6{
+        font-weight: bold;
+      }
+
+    }
+    .media:hover{
+      background: #EDF2F9;
+      padding: 1.25rem !important;
+    }
+    .post-comment{
+      h1{
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+//media query
+
+// For mobile device
+@media only screen and (max-width: 768px) {
+  .first-section {
+    padding-top: 1rem;
+  }
+}
+
+//text classes
+.text-light-1{
+  color: #495057 !important;
+}
+.text-muted {
+  color: #adb5bd!important;
+}
+
+//bounce little
+.bounce-little{
+  webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.bounce-little:hover{
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
+}
