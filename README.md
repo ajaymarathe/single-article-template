@@ -2,13 +2,13 @@
  Hi there, this is single-article-template based on boocatch-pensive-theme, thanks.
 
 ### first-shot
-[![single-article](https://raw.githubusercontent.com/ajaymarathe/image-store/master/utility-template/single-article.png)](https://ajaymarathe.github.io/single-article-template)
+[![single-article](https://raw.githubusercontent.com/ajaymarathe/image-store/master/utility-template/single-article.png)](https://ajaymarathe.github.io/single-article-template/index.html)
 
 ## About
 
 Bootcatch-themes is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Bootcatch are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-* https://ajaymarathe.github.io/single-article-template
+* https://ajaymarathe.github.io/single-article-template/index.html
 * http://bootcatch.com/theme
 
 ## Usage
